@@ -7,9 +7,9 @@
 ## 2. Thiết kế Mô hình 3 Profile chuyên dụng cho máy tính trạm khám CarePulse
  | Tên Profile | mục đích sử dụng | màu theme | các loại dữ liệu được lữu trữ độc lập |
  | :--- | :---: | :---: | ---: |
- | CarePulse | dành riêng cho bác sĩ và điều dưỡng để thao tác nghiệp vụ khám chữa bệnh | xanh dương |-Cookies and session : Riêng biệt cho carepulse,History: Lưu lịch sử khám,Bookmarks:Thư mục y khoa, Extensions : chặn mã độc |
+ | CarePulse | dành riêng cho bác sĩ và điều dưỡng để thao tác nghiệp vụ khám chữa bệnh | xanh nước biển |-Cookies and session : Riêng biệt cho carepulse,History: Lưu lịch sử khám,Bookmarks:Thư mục y khoa, Extensions : chặn mã độc |
  | Personal | Dành cho nhân sự tra cứu thông tin cá nhân , kiểm tra email công cụ | xanh lá cây |-cookies and session : riêng biệt , History : riêng tư , bookmarks : thư mục y khoa , extensions : tiện ích văn phòng |
- | Sandbox | dành cho bác sĩ thực tập hoặc kiểm tra các tính năng hệ thống mới | cam |-cookies and sesion : xóa tự động hoặc cô lập hoàn toàn , history : không lưu trữ dài hạn , bookmarks : không có |
+ | Sandbox | dành cho bác sĩ thực tập hoặc kiểm tra các tính năng hệ thống mới | màu cam |-cookies and sesion : xóa tự động hoặc cô lập hoàn toàn , history : không lưu trữ dài hạn , bookmarks : không có |
  # **Phần 2: Thiết kế hệ thống Bookmark & Quy trình an toàn**
    ## Dựng cây thư mục Bookmark chuẩn (`Ctrl + Shift + O`) gồm 3 thư mục chính phục vụ bác sĩ trực: `📁 01_CarePulse_Clinic`, `📁 02_Pharma_Portal`, `📁 03_Medical_Tools`. Liệt kê ít nhất 3 dịch vụ web cần lưu trong mỗi thư mục
  - **01_CarePulse_Clinic**
